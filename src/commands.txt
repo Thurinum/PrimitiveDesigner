@@ -1,0 +1,22 @@
+# this is a comment
+# empty lines are ignored too
+
+# thickness of stuff drawn onwards
+thickness 5
+
+# point: a single couple of numbers
+point 500,500
+
+# cross: a single couple of numbers
+thickness 25
+cross 400,100
+thickness 5
+
+# line: two points
+line 100,200 300,400
+
+# set RGB color for what's next
+color 255,0,0
+
+# polyline: three or more points
+polyline 100,100 200,200 300,100 400,200
