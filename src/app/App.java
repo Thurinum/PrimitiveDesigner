@@ -41,6 +41,11 @@ public class App extends Canvas {
 
     @Override
     public void paint(Graphics g) {
+        if (commandList == null) {
+            System.out.println("\u001B[31mNo commands loaded.\u001B[0m");
+            return;
+        }
+
         for (DrawCommand cmd : commandList) {
             cmd.execute((Graphics2D) g);
         }

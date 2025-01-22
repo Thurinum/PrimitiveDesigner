@@ -6,9 +6,11 @@ thickness 5
 
 # point: a single couple of numbers
 point 500,500
+point 600,600
+point 700,700
 
 # cross: a single couple of numbers
-thickness 25
+thickness 10
 cross 400,100
 thickness 5
 
@@ -20,3 +22,7 @@ color 255,0,0
 
 # polyline: three or more points
 polyline 100,100 200,200 300,100 400,200
+
+thickness 100
+color 0,255,0
+point 500,500
